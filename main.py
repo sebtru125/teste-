@@ -20,7 +20,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Configuración
-TOKEN = os.environ.get("TOKEN", "tu_token_aqui")  # Mejor usar variable de entorno en Railway
+TOKEN = os.environ.get("TOKEN", "8078347729:AAGME0GBMgLh4AgvdF1ChtbWxLW4sRvfS1M")  # Mejor usar variable de entorno en Railway
 PERSONAS = ["Sebastián", "Francisca"]
 TIMEZONE = pytz.timezone('America/Santiago')
 
